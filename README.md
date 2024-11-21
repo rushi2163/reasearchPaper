@@ -38,4 +38,4 @@ Deepfake detection methods are categorized into five types based on features the
 
 [4.Camera-fingerprints-based methods](url): Identify traces left by devices during image capture.
 
-[5.Biological-signals-based methods](url): Exploit failures of GANs to accurately reproduce biological signals.
+[5.Biological-signals-based methods](https://github.com/rushi2163/reasearchPaper/blob/main/DeepFakesON-Phys%20DeepFakes%20Detection%20based%20on%20Heart%20Rate%20Estimation.pdf): Exploit failures of GANs to accurately reproduce biological signals.
