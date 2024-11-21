@@ -36,12 +36,12 @@ While advanced models like 3D CNNs can help preserve spatial features when detec
 
 
 
-[3.Camera-fingerprints-based methods](https://github.com/rushi2163/reasearchPaper/blob/main/Video%20Camera%20Identification%20from%20Sensor%20Pattern%20Noise%20with%20a.pdf): 
+[2.Camera-fingerprints-based methods](https://github.com/rushi2163/reasearchPaper/blob/main/Video%20Camera%20Identification%20from%20Sensor%20Pattern%20Noise%20with%20a.pdf): 
 
   Camera fingerprint-based detection originates from image forensics, where devices are observed to leave unique traces in captured images. Lukas et al. introduced PRNU (Photo Response Non-Uniformity) noise, caused by pixel sensitivity variations due to imperfections in the sensor manufacturing process. PRNU serves as a stable and unique device fingerprint, useful for various forensic applications. Building on this, Koopman et al. proposed using PRNU to detect deepfake videos, demonstrating its effectiveness on small datasets. However, the approach shows significantly lower accuracy when applied to GAN-generated datasets, highlighting the need for further research to validate PRNU's efficacy in deepfake detection.
 
   
-[5.Biological-signals-based methods](https://github.com/rushi2163/reasearchPaper/blob/main/Motion-Resistant%20Remote%20Imaging.pdf): 
+[3.Biological-signals-based methods](https://github.com/rushi2163/reasearchPaper/blob/main/Motion-Resistant%20Remote%20Imaging.pdf): 
 
 The text discusses the challenges and solutions related to Remote Imaging Photoplethysmography (RIPPG), a method used for contactless monitoring of human vital signs, such as heart rate, using facial video. The main challenge with RIPPG, especially when applied to facial video, is its sensitivity to motion artifacts. Human skin's radiant intensity varies due to blood pulses, and movements can affect the intensity, introducing noise into the RIPPG signal.
 
