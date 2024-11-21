@@ -57,4 +57,12 @@ features.
   Camera fingerprint-based detection originates from image forensics, where devices are observed to leave unique traces in captured images. Lukas et al. introduced PRNU (Photo Response Non-Uniformity) noise, caused by pixel sensitivity variations due to imperfections in the sensor manufacturing process. PRNU serves as a stable and unique device fingerprint, useful for various forensic applications. Building on this, Koopman et al. proposed using PRNU to detect deepfake videos, demonstrating its effectiveness on small datasets. However, the approach shows significantly lower accuracy when applied to GAN-generated datasets, highlighting the need for further research to validate PRNU's efficacy in deepfake detection.
 
   
-[5.Biological-signals-based methods](https://github.com/rushi2163/reasearchPaper/blob/main/DeepFakesON-Phys%20DeepFakes%20Detection%20based%20on%20Heart%20Rate%20Estimation.pdf): Exploit failures of GANs to accurately reproduce biological signals.
+[5.Biological-signals-based methods](https://github.com/rushi2163/reasearchPaper/blob/main/DeepFakesON-Phys%20DeepFakes%20Detection%20based%20on%20Heart%20Rate%20Estimation.pdf)
+
+[Long-Term Recurrent Convolutional Networks for Visual Recognition and Description](https://github.com/rushi2163/reasearchPaper/blob/main/Long-Term%20Recurrent%20Convolutional%20Networks.pdf): 
+
+The text discusses the challenges and solutions related to Remote Imaging Photoplethysmography (RIPPG), a method used for contactless monitoring of human vital signs, such as heart rate, using facial video. The main challenge with RIPPG, especially when applied to facial video, is its sensitivity to motion artifacts. Human skin's radiant intensity varies due to blood pulses, and movements can affect the intensity, introducing noise into the RIPPG signal.
+
+To address this issue, the text outlines the development of an optical RIPPG signal model, which describes both the signal's origin and the motion artifacts. The skin's region of interest (ROI) is modeled as a Lambertian radiator, and the effect of ROI tracking is analyzed from a radiometry perspective. The proposed solution includes an adaptive color difference operation between the green and red channels of a digital camera to minimize motion artifacts.
+
+Furthermore, an adaptive bandpass filter is introduced to eliminate residual motion artifacts, and a combination of ROI selection on the subject's cheeks with speeded-up robust features (SURF) point tracking is used to enhance the RIPPG signal quality. The experimental results show that the proposed method significantly improves the performance of facial video-based RIPPG in monitoring heart rates, particularly when the subject is in motion, compared to existing methods.
