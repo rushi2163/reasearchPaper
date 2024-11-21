@@ -30,7 +30,7 @@ These methods continue to evolve, producing highly realistic outputs that challe
 
 Deepfake detection methods are categorized into five types based on features they exploit:
 
-[1.General-network-based methods](url): 
+[1.General-network-based methods](https://github.com/rushi2163/reasearchPaper/blob/main/Two-Stream%20Neural%20Networks%20for%20Tampered%20Face%20Detection.pdf): 
 
 While advanced models like 3D CNNs can help preserve spatial features when detecting temporal inconsistencies, they are often very large and have too many parameters. This increases the risk of overfitting, where the model becomes too tailored to the dataset it was trained on and struggles to generalize to other data.
 
