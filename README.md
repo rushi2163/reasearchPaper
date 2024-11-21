@@ -30,12 +30,31 @@ These methods continue to evolve, producing highly realistic outputs that challe
 
 Deepfake detection methods are categorized into five types based on features they exploit:
 
-[1.General-network-based methods](url): Use neural networks like CNNs for frame-level classification.
+[1.General-network-based methods](url): 
 
-[2.Temporal-consistency-based methods](url): Identify inconsistencies between frames in videos.
+While advanced models like 3D CNNs can help preserve spatial features when detecting temporal inconsistencies, they are often very large and have too many parameters. This increases the risk of overfitting, where the model becomes too tailored to the dataset it was trained on and struggles to generalize to other data.
 
-[3.Visual-artifacts-based methods](url): Detect discrepancies caused by the blending process.
+[2.Temporal-consistency-based methods](url): 
 
-[4.Camera-fingerprints-based methods](url): Identify traces left by devices during image capture.
+Temporal-consistency-based detection methods improve performance by looking at how video frames connect to each other. However, some models lose important details in each frame while trying to detect these connections, which makes it harder to spot differences. CNN-RNN models turn the frame details into simplified vectors, missing out on key spatial features. While 3DCNN models keep the spatial details, they have so many parameters that they can easily overfit to one dataset, making them less flexible for other videos.
 
+[3.Visual-artifacts-based methods](url): 
+
+Visual‐artefacts‐based methods often obtain better generalization
+performance because they target more general artefacts
+existing in most deepfake contents. However, these algorithms
+can only detect specific forgery traces due to paying more
+attention to specific artefacts. With the progress of deepfake
+algorithms, these artefacts are gradually disappearing. Nevertheless,
+visual artefacts‐based approaches obtain better performance
+in the latest version of deepfake video datasets. Such
+schemes still have high potential in deepfake detection tasks.
+Researches should be established to exploit more intrinsic
+features.
+
+[4.Camera-fingerprints-based methods](https://github.com/rushi2163/reasearchPaper/blob/main/Video%20Camera%20Identification%20from%20Sensor%20Pattern%20Noise%20with%20a.pdf): 
+
+  Camera fingerprint-based detection originates from image forensics, where devices are observed to leave unique traces in captured images. Lukas et al. introduced PRNU (Photo Response Non-Uniformity) noise, caused by pixel sensitivity variations due to imperfections in the sensor manufacturing process. PRNU serves as a stable and unique device fingerprint, useful for various forensic applications. Building on this, Koopman et al. proposed using PRNU to detect deepfake videos, demonstrating its effectiveness on small datasets. However, the approach shows significantly lower accuracy when applied to GAN-generated datasets, highlighting the need for further research to validate PRNU's efficacy in deepfake detection.
+
+  
 [5.Biological-signals-based methods](https://github.com/rushi2163/reasearchPaper/blob/main/DeepFakesON-Phys%20DeepFakes%20Detection%20based%20on%20Heart%20Rate%20Estimation.pdf): Exploit failures of GANs to accurately reproduce biological signals.
